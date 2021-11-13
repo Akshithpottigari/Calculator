@@ -1,0 +1,54 @@
+@import url(assets/css/uikit.css);
+/* *{
+    background-color: black;
+} */
+@font-face {
+    font-family: RobotoCondensed;
+    src: url(Fonts/MainTitle/RobotoCondensed-Regular.ttf);
+}
+.MainTitle{
+    text-align: center;
+    font-family: RobotoCondensed;
+    font-size: 500%;
+    color: white;
+}
+.FirstInput{
+
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: RobotoCondensed;
+    color: #333;
+    font-weight: 566;
+    border: 1px solid #e5e5e5;
+
+}
+.SecondInput{
+    margin-top: 0.5px;
+    font-size: 50px;
+    font-family: RobotoCondensed;
+    color: #333;
+    border: 1px solid #e5e5e5;
+
+}
+
+body {
+	background: linear-gradient(-45deg, #424242, black, #2C3E50, #000000);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.results{
+
+}
