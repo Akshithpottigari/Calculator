@@ -6,6 +6,7 @@
     font-family: RobotoCondensed;
     src: url(Fonts/MainTitle/RobotoCondensed-Regular.ttf);
 }
+
 .MainTitle{
     text-align: center;
     font-family: RobotoCondensed;
@@ -36,6 +37,7 @@ body {
 	background-size: 400% 400%;
 	animation: gradient 5s ease infinite;
 	height: 100vh;
+    
 }
 
 @keyframes gradient {
@@ -49,6 +51,10 @@ body {
 		background-position: 0% 50%;
 	}
 }
-.results{
-
+.result{
+    margin-top: 0.5px;
+    font-size: 50px;
+    font-family: RobotoCondensed;
+    color: #333;
+    border: 1px solid #e5e5e5;
 }
